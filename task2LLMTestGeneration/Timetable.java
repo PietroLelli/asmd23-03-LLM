@@ -1,4 +1,4 @@
-package a01a.e1LLMSolution;
+package a01a.task2LLMTestGeneration;
 
 import java.util.*;
 
@@ -7,14 +7,14 @@ import java.util.*;
  * Though not strictly necessary, a timetable implementation may be immutable.
  */
 public interface Timetable {
-
+	
 	/**
 	 * @param activity
 	 * @param day
 	 * @return a new timetable similar to 'this', but with an additional hour on @activity at the given @day
 	 */
 	Timetable addHour(String activity, String day);
-
+	
 	/**
 	 * @return the set of (names of) activities (added so far)
 	 */

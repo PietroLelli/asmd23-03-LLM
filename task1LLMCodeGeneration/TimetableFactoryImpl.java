@@ -1,4 +1,4 @@
-package a01a.e1LLMSolution;
+package a01a.task1LLMCodeGeneration;
 
 import java.util.HashMap;
 import java.util.HashSet;

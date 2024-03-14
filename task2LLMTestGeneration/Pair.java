@@ -1,4 +1,4 @@
-package a01a.e1LLMSolution;
+package a01a.task2LLMTestGeneration;
 
 import java.util.Objects;
 
