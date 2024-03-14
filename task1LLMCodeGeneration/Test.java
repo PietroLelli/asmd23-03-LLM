@@ -35,7 +35,9 @@ public class Test {
 
 	@org.junit.Before
 	public void initFactory() {
-		this.factory = new TimetableFactoryImpl();
+		//this.factory = new ChatGPTTimetableFactoryImpl();
+		this.factory = new CopilotTimetableFactoryImpl();
+
 	}
 
 	@org.junit.Test

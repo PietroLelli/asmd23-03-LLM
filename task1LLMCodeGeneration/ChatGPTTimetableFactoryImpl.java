@@ -6,7 +6,7 @@ import java.util.Map;
 import java.util.Set;
 import java.util.function.BiFunction;
 
-public class TimetableFactoryImpl implements TimetableFactory {
+public class ChatGPTTimetableFactoryImpl implements TimetableFactory {
 
     @Override
     public Timetable empty() {
