@@ -37,6 +37,8 @@ public class Test {
 	public void initFactory() {
 		//this.factory = new ChatGPTTimetableFactoryImpl();
 		this.factory = new CopilotTimetableFactoryImpl();
+		//this.factory = new CopilotFromZeroTimetableFactoryImpl();
+
 
 	}
 
