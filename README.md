@@ -1,4 +1,4 @@
-# Task 1: CODE GENERATION
+# Task 1: Code Generation
 
 ## LLM: ChatGPT
 
@@ -173,7 +173,7 @@ This modification ensures that the join operation correctly sums the hours for e
 By passing the source code of the interfaces and tests, ChatGPT was able to generate correct implementations that passed the tests in a few requests.  
 On the first attempt, one out of four tests failed, so it was necessary to make a second request with the error message that the test returned in the output. The second implementation provided was correct and did not need to be modified.
 
-# Task 2: Test Generation
+# Task 2: Testing
 ## LLM: ChatGPT
 ### First request
 > From this implementation write me JUnit tests for the methods of the class:
